@@ -1,0 +1,15 @@
+[user]
+	name = Allan Assis
+	email = allan.andrade@corp.globo.com
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+
+[alias]
+    prettylog = log --color --graph --pretty=format:'%Cred%h%Creset %Cgreen(%cr) -%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset' --abbrev-commit
+    release = tag -a --cleanup=whitespace
+[pull]
+	rebase = true
