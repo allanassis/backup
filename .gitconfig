@@ -13,3 +13,5 @@
     release = tag -a --cleanup=whitespace
 [pull]
 	rebase = true
+[http]
+	sslVerify = false
