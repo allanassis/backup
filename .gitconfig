@@ -1,6 +1,6 @@
 [user]
-	name = /*Name*/
-	email = /*Email*/
+	name = {{name}}
+	email = {{email}}
 [color]
 	ui = auto
 	branch = auto
